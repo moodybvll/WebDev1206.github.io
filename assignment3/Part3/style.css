@@ -12,7 +12,7 @@
     line-height: 1.6;
     letter-spacing: 0.5px;
     word-spacing: 0.5px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /*added open font*/
   }
   
   /* Layout */
