@@ -1,0 +1,87 @@
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+  }
+
+  img {
+      max-width: 100%;
+      display: block;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color:#ffffff;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000000;
+  }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  article {
+    grid-column: 1 / span 1; /* First column */
+  }
+  
+  aside {
+    grid-column: 2 / span 1; /* Second column */
+  }
+  
+  /* Other existing styles */
+
+/* Styles for the photography section */
+.photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    padding: 0; /* Remove default padding */
+  }
+  
+  .photos li {
+    list-style-type: none; /* Remove default list styling */
+  }
+  
+  .photos img {
+    width: 100%; /* Ensure images take the full width of their grid cell */
+    height: auto; /* Maintain aspect ratio */
+  }
+  nav {
+    background-color: #f0f0f0; /* Background color for the navbar */
+    padding: 10px 0; /* Padding for top and bottom */
+    position: sticky; /* Stick the navbar */
+    top: 0; /* Stick to the top of viewport */
+    z-index: 100; /* Ensure it appears above other content */
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0 auto; /* Center align the items */
+    max-width: 800px; /* Set a max-width to limit width */
+  }
+  
+  nav ul li {
+    margin: 0; /* Reset margin */
+  }
+  
+  nav ul li a {
+    padding: 10px 15px; /* Padding around the links */
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Text color */
+  }
+  
+  nav ul li a:hover {
+    background-color: #ddd; /* Background color on hover */
+  }
+    
+  
